@@ -1,0 +1,23 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment variables & secrets
+.env
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Databases & temporary journal files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+study_planner.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
